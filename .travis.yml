@@ -7,7 +7,9 @@ cache:
 matrix:
   fast_finish: true
   include:
-    - php: 7.4
+    - php:
+        - 7.3
+        - 7.4
       env:
         - TEST_COVERAGE=true
 
